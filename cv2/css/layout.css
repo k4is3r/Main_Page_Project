@@ -69,7 +69,7 @@ header .banner-text h1 {
 }
 
 header .banner-text h3 {
-    font: 22px/1.9em "librebaskerville-regular", serif;
+    font: 22px/1.9em "opensans-bold", sans-serif;
     color: #d85336;
     margin: 0 auto;
     width: 70%;
@@ -433,9 +433,9 @@ ul#nav li.current a {
 }
 
 .git {
-   width: 88%;
-   -moz-animation: git 2s ease;
-   -webkit-animation: git 2s ease;
+    width: 88%;
+    -moz-animation: git 2s ease;
+    -webkit-animation: git 2s ease;
 }
 
 @-moz-keyframes photoshop {
@@ -492,9 +492,13 @@ ul#nav li.current a {
     }
 }
 
-@-moz-keyframes git{
-   0%{ width: 0px;}
-   100%{width: 88%;}
+@-moz-keyframes git {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 88%;
+    }
 }
 
 @-webkit-keyframes photoshop {
@@ -550,12 +554,15 @@ ul#nav li.current a {
         width: 50%;
     }
 }
- 
-@-webkit-keyframes git{
-   0%{ width: 0px;}
-   100%{width: 88%;}
-}
 
+@-webkit-keyframes git {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 88%;
+    }
+}
 
 /* ------------------------------------------------------------------ */
 
