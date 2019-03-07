@@ -16,5 +16,5 @@ $carta.= "Message: $mensaje \n";
 
 // sending email
 mail($destinatario,$asunto,$carta);
-header('Location: index.html');
+
 ?>
