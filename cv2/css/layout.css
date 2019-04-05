@@ -1,30 +1,6 @@
-/*
-   TOC:
-   a. General Styles
-   b. Header Styles
-   c. About Section
-   d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
-
-===================================================================== */
-
-/* ------------------------------------------------------------------ */
-
-/* a. General Styles
-/* ------------------------------------------------------------------ */
-
 body {
     background: #0f0f0f;
 }
-
-/* ------------------------------------------------------------------ */
-
-/* b. Header Styles
-/* ------------------------------------------------------------------ */
 
 header {
     position: relative;
@@ -38,7 +14,6 @@ header {
     overflow: hidden;
 }
 
-/* vertically center banner section */
 
 header:before {
     content: "";
@@ -108,7 +83,7 @@ header .social li a {
 }
 
 header .social li a:hover {
-    color: #11abb0;
+    color: #d85336;
 }
 
 /* scrolldown link */
@@ -133,11 +108,9 @@ header .scrolldown a {
 }
 
 header .scrolldown a:hover {
-    color: #11abb0;
+    color: #d85336;
 }
 
-/* primary navigation
---------------------------------------------------------------------- */
 
 #nav-wrap ul,
 #nav-wrap li,
@@ -147,8 +120,6 @@ header .scrolldown a:hover {
     border: none;
     outline: none;
 }
-
-/* nav-wrap */
 
 #nav-wrap {
     font: 12px "opensans-bold", sans-serif;
@@ -165,8 +136,6 @@ header .scrolldown a:hover {
 .opaque {
     background-color: #333;
 }
-
-/* hide toggle button */
 
 #nav-wrap>a.mobile-btn {
     display: none;
@@ -186,10 +155,8 @@ ul#nav li {
     display: inline-block;
 }
 
-/* Links */
 
 ul#nav li a {
-    /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
     display: inline-block;
     padding: 8px 13px;
     line-height: 32px;
@@ -211,10 +178,6 @@ ul#nav li.current a {
     color: #f06000;
 }
 
-/* ------------------------------------------------------------------ */
-
-/* c. About Section
-/* ------------------------------------------------------------------ */
 
 #about {
     background: #2b2b2b;
@@ -230,7 +193,7 @@ ul#nav li.current a {
 
 #about a:hover,
 #about a:focus {
-    color: #11abb0;
+    color: #d85336;
 }
 
 #about h2 {
@@ -279,10 +242,6 @@ ul#nav li.current a {
     font-size: 20px;
 }
 
-/* ------------------------------------------------------------------ */
-
-/* d. Resume Section
-/* ------------------------------------------------------------------ */
 
 #resume {
     background: #fff;
@@ -293,7 +252,7 @@ ul#nav li.current a {
 
 #resume a,
 #resume a:visited {
-    color: #11abb0;
+    color: #d85336;
 }
 
 #resume a:hover,
@@ -308,7 +267,7 @@ ul#nav li.current a {
 }
 
 #resume h1 span {
-    border-bottom: 3px solid #11abb0;
+    border-bottom: 3px solid #d85336;
     padding-bottom: 6px;
 }
 
@@ -348,11 +307,7 @@ ul#nav li.current a {
     margin-top: 6px;
 }
 
-/*----------------------------------------------*/
-
-/*	Skill Bars
-/*----------------------------------------------*/
-
+/* barras para skills */
 .bars {
     width: 95%;
     float: left;
@@ -442,6 +397,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 60%;
     }
@@ -451,6 +407,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 55%;
     }
@@ -460,6 +417,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 50%;
     }
@@ -469,6 +427,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 90%;
     }
@@ -478,6 +437,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 80%;
     }
@@ -487,6 +447,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 50%;
     }
@@ -496,6 +457,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 88%;
     }
@@ -505,6 +467,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 60%;
     }
@@ -514,6 +477,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 55%;
     }
@@ -523,6 +487,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 50%;
     }
@@ -532,6 +497,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 90%;
     }
@@ -541,6 +507,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 80%;
     }
@@ -550,6 +517,7 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 50%;
     }
@@ -559,15 +527,13 @@ ul#nav li.current a {
     0% {
         width: 0px;
     }
+
     100% {
         width: 88%;
     }
 }
 
-/* ------------------------------------------------------------------ */
-
-/* e. Portfolio Section
-/* ------------------------------------------------------------------ */
+/*Seccion de portafolio importante */
 
 #portfolio {
     background: #ebeeee;
@@ -584,7 +550,6 @@ ul#nav li.current a {
     color: #95a3a3;
 }
 
-/* Portfolio Content */
 
 #portfolio-wrapper .columns {
     margin-bottom: 36px;
@@ -606,7 +571,6 @@ ul#nav li.current a {
     cursor: pointer;
 }
 
-/* overlay */
 
 .portfolio-item .item-wrap .overlay {
     position: absolute;
@@ -665,7 +629,6 @@ ul#nav li.current a {
     margin-bottom: 0;
 }
 
-/* on hover */
 
 .portfolio-item:hover .overlay {
     opacity: 1;
@@ -732,17 +695,13 @@ ul#nav li.current a {
 }
 
 .popup-modal a:hover {
-    color: #00cccc;
+    color: #d85336;
 }
 
 .popup-modal a.popup-modal-dismiss {
     margin-left: 24px;
 }
 
-/* fadein/fadeout effect for modal popup
-/* ------------------------------------------------------------------ */
-
-/* content at start */
 
 .mfp-fade.mfp-wrap .mfp-content .popup-modal {
     opacity: 0;
@@ -753,22 +712,15 @@ ul#nav li.current a {
     transition: all 200ms ease-in-out;
 }
 
-/* content fadein */
 
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
     opacity: 1;
 }
 
-/* content fadeout */
 
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
     opacity: 0;
 }
-
-/* ------------------------------------------------------------------ */
-
-/* f. Call To Action Section
-/* ------------------------------------------------------------------ */
 
 #call-to-action {
     background: #212121;
@@ -817,12 +769,6 @@ ul#nav li.current a {
     font-size: 17px;
 }
 
-/*#
-call-to-action .button {
-	color:#fff;
-   background: #0D0D0D;
-}
-*/
 
 #call-to-action .button:hover,
 #call-to-action .button:active {
@@ -835,9 +781,7 @@ call-to-action .button {
     color: #d8d8d8;
 }
 
-/* ------------------------------------------------------------------
-/* g. Testimonials
-/* ------------------------------------------------------------------ */
+/*alguno testimonion */
 
 #testimonials {
     background: #1f1f1f url(../images/testimonials-bg.jpg) no-repeat center center;
@@ -881,7 +825,7 @@ call-to-action .button {
     color: #fff;
 }
 
-/*	Blockquotes */
+/*	importanten coutos  */
 
 #testimonials blockquote {
     margin: 0 0px 30px 0px;
@@ -920,10 +864,6 @@ call-to-action .button {
     border: none;
 }
 
-/* Flex Slider
-/* ------------------------------------------------------------------ */
-
-/* Reset */
 
 .flexslider a:active,
 .flexslider a:focus {
@@ -943,7 +883,6 @@ call-to-action .button {
     padding: 0;
 }
 
-/* Necessary Styles */
 
 .flexslider {
     position: relative;
@@ -960,21 +899,18 @@ call-to-action .button {
     position: relative;
 }
 
-/* Hide the slides before the JS is loaded. Avoids image jumping */
 
 .flexslider .slides>li {
     display: none;
     -webkit-backface-visibility: hidden;
 }
 
-/* Suggested container for slide animation setups. Can replace this with your own */
 
 .flex-container {
     zoom: 1;
     position: relative;
 }
 
-/* Clearfix for .slides */
 
 .slides:before,
 .slides:after {
@@ -986,16 +922,11 @@ call-to-action .button {
     clear: both;
 }
 
-/* No JavaScript Fallback */
-
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
 
 .no-js .slides>li:first-child {
     display: block;
 }
 
-/* Slider Styles */
 
 .slides {
     zoom: 1;
@@ -1006,7 +937,7 @@ call-to-action .button {
     overflow: hidden;
 }
 
-/* Control Nav */
+/* Control de Nav */
 
 .flex-control-nav {
     width: 100%;
@@ -1048,10 +979,6 @@ call-to-action .button {
     cursor: default;
 }
 
-/* ------------------------------------------------------------------ */
-
-/* h. Contact Section
-/* ------------------------------------------------------------------ */
 
 #contact {
     background: #191919;
@@ -1112,7 +1039,6 @@ call-to-action .button {
     padding-top: 6px;
 }
 
-/* contact form */
 
 #contact form {
     margin-bottom: 30px;
@@ -1145,7 +1071,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
     color: #fff;
-    background-color: #11abb0;
+    background-color: #d85336;
 }
 
 #contact button.submit {
@@ -1167,7 +1093,7 @@ call-to-action .button {
 }
 
 #contact span.required {
-    color: #11abb0;
+    color: #d85336;
     font-size: 13px;
 }
 
@@ -1201,7 +1127,6 @@ call-to-action .button {
     top: 17px;
 }
 
-/* Twitter Feed */
 
 #twitter {
     margin-top: 12px;
@@ -1223,10 +1148,6 @@ call-to-action .button {
     border: none;
 }
 
-/* ------------------------------------------------------------------ */
-
-/* i. Footer
-/* ------------------------------------------------------------------ */
 
 footer {
     padding-top: 48px;
@@ -1247,7 +1168,6 @@ footer a:focus {
     color: #fff;
 }
 
-/* copyright */
 
 footer .copyright {
     margin: 0;
@@ -1269,14 +1189,13 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #095153;
+    color: #d85336;
 }
 
 footer .copyright li:first-child:before {
     display: none;
 }
 
-/* social links */
 
 footer .social-links {
     margin: 18px 0 30px 0;
@@ -1296,7 +1215,6 @@ footer .social-links li:first-child {
     margin-left: 0;
 }
 
-/* Go To Top Button */
 
 #go-top {
     position: absolute;
@@ -1324,7 +1242,7 @@ footer .social-links li:first-child {
 }
 
 #go-top a:hover {
-    background-color: #0f9095;
+    background-color: #d85336;
 }
 
 .portafolio {
@@ -1347,11 +1265,11 @@ footer .social-links li:first-child {
 }
 
 .portafolio-pic {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .zoom:hover {
     transform: scale(1.5);
-    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    /* (150% aproximado */
 }
