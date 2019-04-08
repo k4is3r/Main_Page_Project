@@ -351,10 +351,10 @@ ul#nav li.current a {
     border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
+.react {
     width: 60%;
-    -moz-animation: photoshop 2s ease;
-    -webkit-animation: photoshop 2s ease;
+    -moz-animation: react 2s ease;
+    -webkit-animation: react 2s ease;
 }
 
 .illustrator {
@@ -363,10 +363,10 @@ ul#nav li.current a {
     -webkit-animation: illustrator 2s ease;
 }
 
-.wordpress {
+.laravel {
     width: 50%;
-    -moz-animation: wordpress 2s ease;
-    -webkit-animation: wordpress 2s ease;
+    -moz-animation: laravel 2s ease;
+    -webkit-animation: laravel 2s ease;
 }
 
 .css {
