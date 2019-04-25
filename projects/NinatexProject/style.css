@@ -119,11 +119,10 @@ html {
 
 .head-banner a {
     color: rgb(104, 104, 104);
-
 }
 
 .head-banner i {
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 
@@ -210,7 +209,6 @@ html {
 /* seccion productos */
 
 .product-cs {
-    margin-top: 5%;
     text-align: center;
     width: 100%;
 }
@@ -218,6 +216,8 @@ html {
 .product-cs h2 {
     color: rgb(42, 170, 234);
     font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 
 .column3 h3 {
