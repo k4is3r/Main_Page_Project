@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Navbar secction  */
 .head-bar {
     height: 20px;
@@ -12,11 +16,19 @@
     background-color: rgb(3, 44, 137);
 }
 
+#inicio-contenedor {
+    overflow: hidden;
+}
+
 .nav-element {
     display: block;
     text-align: center;
     background-color: rgb(255, 255, 255);
     text-decoration: none;
+}
+
+.head-bar a {
+    color: rgb(104, 104, 104);
 }
 
 .nav-a {
@@ -95,21 +107,32 @@
 
 
 /* nav bar seccion end */
-
+/* seccion inicio */
 .head-banner {
     width: 100%;
-    height: 700px;
+    /* height: 700px; */
     background-color: rgb(42, 170, 234);
+    text-align: center;
+    display: inline-block;
 }
+
+
+.head-banner a {
+    color: rgb(104, 104, 104);
+
+}
+
+.head-banner i {
+    margin-top: 20%;
+}
+
 
 .head-title-1 {
     font-size: 10vw;
     color: rgb(255, 255, 255);
-    text-align: center;
 }
 
 .head-title-2 {
-    text-align: center;
     font-size: 14vw;
     color: rgb(255, 255, 255);
 }
@@ -117,47 +140,52 @@
 /* seccion nosotros */
 .how-section {
     width: 100%;
-    height: 650px;
+    /* height: 650px; */
 }
 
 /* seccion sobre-nosotros */
 .we-section-how {
     text-align: center;
     width: 100%;
-    height: 250px;
-    margin-top: 40px;
+    margin-top: 5%;
 }
 
 .we-section-how h2 {
     color: rgb(42, 170, 234);
-    font-size: 5vw;
+    font-size: 2em;
 }
 
 .we-section-how p {
     color: rgb(104, 104, 104);
-    font-size: 2vw;
+    font-size: 1em;
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 5%;
 }
 
 /* seccion vision / mision */
+#vmcontenedor {
+    overflow: hidden;
+}
+
 .we-section-vm {
     width: 100%;
-    height: 400px;
+    /* height: 400px; */
     background-color: rgb(3, 44, 137);
 }
 
 .column {
     width: 50%;
-    height: 300px;
+    /* height: 300px; */
     float: left;
     text-align: center;
     color: rgb(255, 255, 255);
+    margin-bottom: 5%;
 }
 
 .column h2 {
     margin-top: 5%;
-    font-size: 4vw;
+    font-size: 2em;
     margin-bottom: 3%;
 }
 
@@ -170,5 +198,60 @@
 .row:after {
     content: "";
     display: table;
-    clear: both;
+    clear: left;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* seccion productos */
+
+.product-cs {
+    margin-top: 5%;
+    text-align: center;
+    width: 100%;
+}
+
+.product-cs h2 {
+    color: rgb(42, 170, 234);
+    font-size: 2em;
+}
+
+.column3 h3 {
+    color: rgb(3, 44, 137);
+    margin-bottom: 4%;
+}
+
+.column3 p {
+    color: rgb(104, 104, 104);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.column3 {
+    width: 33.33%;
+    float: left;
+}
+
+.column3 img {
+    width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: left;
+}
+
+@media screen and (max-width: 600px) {
+    .column3 {
+        width: 100%;
+    }
+}
+
+#pro-contenedor {
+    overflow: hidden;
 }

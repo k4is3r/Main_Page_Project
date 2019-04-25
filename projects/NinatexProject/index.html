@@ -10,14 +10,16 @@
     />
     <link rel='icon' href='./asets/favicon/favicon.png' type='image/x-icon'/ >
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Industrias Ninatex</title>
   </head>
   <body>
+    <!-- NavBar -->
     <div class="head-bar"></div>
     <nav class="nav-element">
       <a class="nav-a" href="#inicio">Inicio</a>
       <a class="nav-a" href="#nosotros">Quines Somos</a>
-      <a class="nav-a" href="#">Productos</a>
+      <a class="nav-a" href="#productos">Productos</a>
       <a class="nav-a" href="#">Contactos</a>
       <div class="dropdown">
             <button class="dropbtn nav-a">Paises</button>
@@ -30,19 +32,22 @@
               <div><a href="#"><img src="./asets/flags/paises (6).png" alt=""> Trinidad y Tobago</a></div>
             </div>
     </nav>
+    <!-- Seccion Inicio -->
     <section id="inicio">
-      <div class="head-banner">
+      <div class="head-banner clearfix" id="inicio-contenedor">
         <h1 class="head-title-1">Industrias</h1>
         <h1 class="head-title-2">ninatex</h1>
+        <a href="#nosotros"> <i class="fas fa-angle-double-down fa-5x"></i></a>
       </div>
     </section>
+    <!-- Seccion Nosotros -->
     <section id="nosotros">
       <div class="how-section">  
       <div class="we-section-how">
             <h2>Sobre Nosotros</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos reprehenderit officiis quae nesciunt suscipit harum voluptatem? Similique, inventore enim unde quia, hic libero accusantium eum atque nesciunt at, aliquam cumque!</p>
         </div>
-        <div class="we-section-vm row">
+        <div class="we-section-vm row" id="vmcontenedor">
           <div class="column">
             <h2>Vision</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia optio, asperiores nostrum tempore obcaecati numquam vero, nihil velit corrupti doloremque quam sed et quis a.</p>
@@ -54,9 +59,35 @@
           </div>
         </div>
     </section>
-    <section id="prodcutos">
-
+    <!-- Seccion Prodcutos -->
+    <section id="productos">
+      <div class="product-cs">
+        <h2>Productos</h2>
+      <div class="row3" id="pro-contenedor">
+        <div class="column3">
+          <h3>Cintas</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          <img src="/asets/img/_MG_8163.png" alt="">
+        </div>
+        <div class="column3">
+          <h3>Etiquetas para Colchon</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          <img src="/asets/img/_MG_8175.png" alt="">
+        </div>
+        <div class="column3">
+          <h3>Elasticos</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <img src="/asets/img/_MG_8150.png" alt="">
+        </div>
+      </div>
+      </div>
+      <!-- Carrousel -->
+      <div class="carrousel"></div>
     </section>
+    <!-- seccion contactos -->
     <section id="contactos"></section>
+    <!-- scripts -->
+    <!-- footer -->
+    <footer></footer>
   </body>
 </html>
