@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/* Navbar secction  */
+.head-bar {
+    height: 20px;
+    width: 100%;
+    background-color: rgb(3, 44, 137);
+}
+
+.nav-element {
+    display: block;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav-a {
+    color: rgb(3, 44, 137);
+    text-decoration: none;
+    margin-left: 5%;
+    text-align: center;
+    text-size-adjust: 20%;
+    font-weight: 700;
+}
+
+.nav-element a:hover {
+    background-color: rgb(104, 104, 104);
+    color: rgb(255, 255, 255);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/* solo dropdown-menu de paises */
+.dropbtn {
+    color: rgb(3, 44, 137);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.dropbtn:hover {
+    color: rgb(255, 255, 255);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+/* Dropdown-Content oculto cuando no esta hover */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    background-color: rgb(104, 104, 104);
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 2%;
+}
+
+.dropdown-content img {
+    width: 40%;
+    height: 40%;
+    margin-top: 1%;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(104, 104, 104);
+}
+
+/* mostrar contenido cuando esta en hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Cambiar el color del boton cuando esta enseñando el contenido*/
+.dropdown:hover .dropbtn {
+    background-color: rgb(104, 104, 104);
+    color: rgb(255, 255, 255);
+}
+
+
+/* nav bar seccion end */
+
+.head-banner {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(42, 170, 234);
+}
+
+.head-title-1 {
+    font-size: 10vw;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.head-title-2 {
+    text-align: center;
+    font-size: 14vw;
+    color: rgb(255, 255, 255);
+}
