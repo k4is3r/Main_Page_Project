@@ -62,6 +62,7 @@ nav {
     margin: 5px;
     transition: all 0.3s ease;
 }
+
 /* 
 @media screen and (max-width: 844px) {
 
@@ -73,7 +74,7 @@ nav {
 /* mobile setup  */
 @media screen and (max-width: 768px) {
     body {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 
     .nav-links {
@@ -100,6 +101,15 @@ nav {
 
     .nav-links li:hover {
         background-color: rgb(255, 255, 255);
+    }
+
+    /* modifcando estilo de layout para mobile */
+    .column3 {
+        width: 100%;
+    }
+
+    .column {
+        width: 100%;
     }
 
 }
@@ -226,11 +236,6 @@ nav {
     clear: left;
 }
 
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
 
 /* seccion productos */
 
@@ -271,14 +276,8 @@ nav {
     display: table;
     clear: left;
 }
-/* @media screen and (max-width: 600px) {
-    .column3 {
-        width: 100%;
-    }
-} */
+
 
 #pro-contenedor {
     overflow: hidden;
 }
-
-/* fixing landscape problem */
