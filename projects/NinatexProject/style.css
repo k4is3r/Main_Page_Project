@@ -46,8 +46,8 @@ nav {
 
 }
 
-.nav-links li:hover {
-    background-color: rgb(161, 159, 159);
+.nav-links a:hover {
+    color: rgb(161, 159, 159);
 }
 
 .burger {
@@ -64,6 +64,7 @@ nav {
 }
 
 @media screen and (max-width: 844px) {
+
     .nav-links {
         width: 50%;
     }
