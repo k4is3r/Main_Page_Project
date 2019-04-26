@@ -84,7 +84,7 @@ nav {
     .nav-links {
         position: absolute;
         right: 0px;
-        height: 92vh;
+        height: 45vh;
         top: 8vh;
         background-color: rgb(255, 255, 255);
         display: none;
@@ -150,7 +150,7 @@ nav {
 /* seccion inicio */
 .head-banner {
     width: 100%;
-    /* height: 700px; */
+    /* height: 550px; */
     background-color: rgb(42, 170, 234);
     text-align: center;
     display: inline-block;
@@ -162,7 +162,7 @@ nav {
 }
 
 .head-banner i {
-    margin-top: 10%;
+    margin-top: 150px;
 }
 
 
@@ -179,7 +179,6 @@ nav {
 /* seccion nosotros */
 .how-section {
     width: 100%;
-    /* height: 650px; */
 }
 
 /* seccion sobre-nosotros */
@@ -293,5 +292,15 @@ nav {
 
     .column3 {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .head-wrapper {
+        margin-top: 140px;
+    }
+
+    .head-banner i {
+        margin-top: 300px;
     }
 }
