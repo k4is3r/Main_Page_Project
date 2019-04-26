@@ -11,6 +11,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 /* Navbar secction  */
 nav {
     display: flex;
@@ -63,18 +64,19 @@ nav {
     transition: all 0.3s ease;
 }
 
-/* 
+
 @media screen and (max-width: 844px) {
 
     .nav-links {
         width: 50%;
     }
-} */
+}
 
 /* mobile setup  */
+
 @media screen and (max-width: 768px) {
     body {
-        overflow-x: hidden !important;
+        overflow-x: hidden;
     }
 
     .nav-links {
@@ -103,15 +105,6 @@ nav {
         background-color: rgb(255, 255, 255);
     }
 
-    /* modifcando estilo de layout para mobile */
-    .column3 {
-        width: 100%;
-    }
-
-    .column {
-        width: 100%;
-    }
-
 }
 
 .nav-active {
@@ -128,6 +121,7 @@ nav {
         opacity: 1;
         transform: translateX(0px);
     }
+
 }
 
 .toggle .line1 {
@@ -280,4 +274,14 @@ nav {
 
 #pro-contenedor {
     overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%
+    }
+
+    .column3 {
+        width: 100%;
+    }
 }
