@@ -76,7 +76,8 @@ nav {
 
 @media screen and (max-width: 768px) {
 
-    .main-div {
+    body,
+    html {
         overflow-x: hidden;
     }
 
