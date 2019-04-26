@@ -75,6 +75,11 @@ nav {
 /* mobile setup  */
 
 @media screen and (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
     .nav-links {
         position: absolute;
         right: 0px;
@@ -99,10 +104,6 @@ nav {
 
     .nav-links li:hover {
         background-color: rgb(255, 255, 255);
-    }
-
-    body {
-        overflow-x: hidden;
     }
 
 }
