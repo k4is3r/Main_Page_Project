@@ -335,7 +335,6 @@ nav {
 .contacto-form {
     width: 70%;
     background-color: rgb(42, 170, 234);
-    height: 300px;
     color: rgb(255, 255, 255);
     margin-left: 15%;
 }
@@ -382,4 +381,33 @@ nav {
     margin-left: 70px;
     margin-top: 15px;
     font-weight: normal;
+}
+
+@media screen and (max-width: 768px) {
+    .contacto-form {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contactos-container {
+        padding: 0;
+        width: 100%;
+    }
+
+    .column i {
+        margin-right: 68%;
+    }
+
+    .form-contacto input {
+        margin-left: 5%;
+    }
+
+    .form-contacto textarea {
+        margin-left: 5%;
+    }
+
+    .form-contacto button {
+        margin-left: 45%;
+
+    }
 }
