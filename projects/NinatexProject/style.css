@@ -19,6 +19,7 @@ nav {
     align-items: center;
     min-height: 8vh;
     border-top: 15px solid rgb(3, 44, 137);
+    background-color: rgb(255, 255, 255);
 }
 
 .logo {
@@ -303,4 +304,82 @@ nav {
     .head-banner i {
         margin-top: 300px;
     }
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+.carrousel {
+    width: 100%;
+    background-color: rgb(161, 159, 159);
+}
+
+.carrousel img {
+    margin: 9px 4px;
+    width: 19%;
+    height: 250px;
+}
+
+.contactos-container {
+    padding: 60px;
+    width: 100%;
+}
+
+.contacto-form {
+    width: 70%;
+    background-color: rgb(42, 170, 234);
+    height: 300px;
+    color: rgb(255, 255, 255);
+    margin-left: 15%;
+}
+
+#contacto h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+
+.form-contacto input {
+    display: flex;
+    width: 90%;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.form-contacto textarea {
+    resize: none;
+    width: 90%;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    border: none;
+}
+
+.form-contacto button {
+    display: flex;
+    width: 80px;
+}
+
+.column i {
+    margin-top: 30px;
+    margin-right: 210px;
+}
+
+
+.column h4 {
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 15px;
+    font-weight: normal;
 }
