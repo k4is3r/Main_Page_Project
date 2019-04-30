@@ -353,53 +353,53 @@ ul#nav li.current a {
 
 .react {
     width: 90%;
-    -moz-animation: react 2s ease;
+    animation: react 2s ease;
     -webkit-animation: react 2s ease;
 }
 
 .illustrator {
     width: 90%;
-    -moz-animation: illustrator 2s ease;
+    animation: illustrator 2s ease;
     -webkit-animation: illustrator 2s ease;
 }
 
 .laravel {
     width: 90%;
-    -moz-animation: laravel 2s ease;
+    animation: laravel 2s ease;
     -webkit-animation: laravel 2s ease;
 }
 
 .css {
     width: 90%;
-    -moz-animation: css 2s ease;
+    animation: css 2s ease;
     -webkit-animation: css 2s ease;
 }
 
 .html5 {
     width: 90%;
-    -moz-animation: html5 2s ease;
+    animation: html5 2s ease;
     -webkit-animation: html5 2s ease;
 }
 
 .jquery {
     width: 90%;
-    -moz-animation: jquery 2s ease;
+    animation: jquery 2s ease;
     -webkit-animation: jquery 2s ease;
 }
 
 .git {
     width: 90%;
-    -moz-animation: git 2s ease;
+    animation: git 2s ease;
     -webkit-animation: git 2s ease;
 }
 
 .javascript {
     width: 90%;
-    -moz-animation: git 2s ease;
+    animation: git 2s ease;
     -webkit-animation: git 2s ease;
 }
 
-@-moz-keyframes photoshop {
+@keyframes photoshop {
     0% {
         width: 0px;
     }
@@ -409,7 +409,7 @@ ul#nav li.current a {
     }
 }
 
-@-moz-keyframes illustrator {
+@keyframes illustrator {
     0% {
         width: 0px;
     }
@@ -419,7 +419,7 @@ ul#nav li.current a {
     }
 }
 
-@-moz-keyframes wordpress {
+@keyframes wordpress {
     0% {
         width: 0px;
     }
@@ -429,7 +429,7 @@ ul#nav li.current a {
     }
 }
 
-@-moz-keyframes css {
+@keyframes css {
     0% {
         width: 0px;
     }
@@ -439,7 +439,7 @@ ul#nav li.current a {
     }
 }
 
-@-moz-keyframes html5 {
+@keyframes html5 {
     0% {
         width: 0px;
     }
@@ -449,7 +449,7 @@ ul#nav li.current a {
     }
 }
 
-@-moz-keyframes jquery {
+@keyframes jquery {
     0% {
         width: 0px;
     }
@@ -459,7 +459,7 @@ ul#nav li.current a {
     }
 }
 
-@-moz-keyframes git {
+@keyframes git {
     0% {
         width: 0px;
     }
@@ -469,7 +469,7 @@ ul#nav li.current a {
     }
 }
 
-@-moz-keyframes javascript {
+@keyframes javascript {
     0% {
         width: 0px;
     }
@@ -928,7 +928,7 @@ ul#nav li.current a {
 
 .flexslider .slides>li {
     display: none;
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 
