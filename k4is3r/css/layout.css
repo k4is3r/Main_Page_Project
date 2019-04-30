@@ -352,19 +352,19 @@ ul#nav li.current a {
 }
 
 .react {
-    width: 60%;
+    width: 90%;
     -moz-animation: react 2s ease;
     -webkit-animation: react 2s ease;
 }
 
 .illustrator {
-    width: 55%;
+    width: 90%;
     -moz-animation: illustrator 2s ease;
     -webkit-animation: illustrator 2s ease;
 }
 
 .laravel {
-    width: 50%;
+    width: 90%;
     -moz-animation: laravel 2s ease;
     -webkit-animation: laravel 2s ease;
 }
@@ -376,19 +376,25 @@ ul#nav li.current a {
 }
 
 .html5 {
-    width: 80%;
+    width: 90%;
     -moz-animation: html5 2s ease;
     -webkit-animation: html5 2s ease;
 }
 
 .jquery {
-    width: 50%;
+    width: 90%;
     -moz-animation: jquery 2s ease;
     -webkit-animation: jquery 2s ease;
 }
 
 .git {
-    width: 88%;
+    width: 90%;
+    -moz-animation: git 2s ease;
+    -webkit-animation: git 2s ease;
+}
+
+.javascript {
+    width: 90%;
     -moz-animation: git 2s ease;
     -webkit-animation: git 2s ease;
 }
@@ -439,7 +445,7 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -449,7 +455,7 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 50%;
+        width: 90%;
     }
 }
 
@@ -459,7 +465,17 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 88%;
+        width: 90%;
+    }
+}
+
+@-moz-keyframes javascript {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
     }
 }
 
@@ -509,7 +525,7 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -519,7 +535,7 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 50%;
+        width: 90%;
     }
 }
 
@@ -529,7 +545,17 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 88%;
+        width: 90%;
+    }
+}
+
+@-webkit-keyframes javascript {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
     }
 }
 
