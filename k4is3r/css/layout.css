@@ -352,49 +352,49 @@ ul#nav li.current a {
 }
 
 .react {
-    width: 90%;
+    width: 50%;
     animation: react 2s ease;
     -webkit-animation: react 2s ease;
 }
 
 .illustrator {
-    width: 90%;
+    width: 50%;
     animation: illustrator 2s ease;
     -webkit-animation: illustrator 2s ease;
 }
 
 .laravel {
-    width: 90%;
+    width: 50%;
     animation: laravel 2s ease;
     -webkit-animation: laravel 2s ease;
 }
 
 .css {
-    width: 90%;
+    width: 50%;
     animation: css 2s ease;
     -webkit-animation: css 2s ease;
 }
 
 .html5 {
-    width: 90%;
+    width: 50%;
     animation: html5 2s ease;
     -webkit-animation: html5 2s ease;
 }
 
 .jquery {
-    width: 90%;
+    width: 50%;
     animation: jquery 2s ease;
     -webkit-animation: jquery 2s ease;
 }
 
 .git {
-    width: 90%;
+    width: 50%;
     animation: git 2s ease;
     -webkit-animation: git 2s ease;
 }
 
 .javascript {
-    width: 90%;
+    width: 50%;
     animation: git 2s ease;
     -webkit-animation: git 2s ease;
 }
@@ -405,7 +405,7 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 60%;
+        width: 50%;
     }
 }
 
@@ -415,7 +415,7 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 55%;
+        width: 50%;
     }
 }
 
@@ -435,7 +435,7 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 90%;
+        width: 50%;
     }
 }
 
@@ -445,7 +445,7 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 90%;
+        width: 50%;
     }
 }
 
@@ -455,7 +455,7 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 90%;
+        width: 50%;
     }
 }
 
@@ -465,7 +465,7 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 90%;
+        width: 50%;
     }
 }
 
@@ -475,7 +475,7 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 90%;
+        width: 50%;
     }
 }
 
@@ -485,7 +485,7 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 60%;
+        width: 50%;
     }
 }
 
@@ -495,7 +495,7 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 55%;
+        width: 50%;
     }
 }
 
@@ -515,7 +515,7 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 90%;
+        width: 50%;
     }
 }
 
@@ -525,7 +525,7 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 90%;
+        width: 50%;
     }
 }
 
@@ -535,7 +535,7 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 90%;
+        width: 50%;
     }
 }
 
@@ -545,7 +545,7 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 90%;
+        width: 50%;
     }
 }
 
@@ -555,7 +555,7 @@ ul#nav li.current a {
     }
 
     100% {
-        width: 90%;
+        width: 50%;
     }
 }
 
