@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140782141-1"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', 'UA-140782141-1');
-      </script>
-      
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-140782141-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-140782141-1");
+    </script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -17,8 +22,10 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./asets/owl/dist/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="./asets/owl/dist/assets/owl.theme.default.min.css" />
     <link rel="icon" href="./asets/favicon/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./asets/css/style.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -111,13 +118,22 @@
             </div>
           </div>
         </div>
-        <!-- Carrousel -->
+      </section>
+      <section id="carrousel">
         <div class="carrousel">
-          <img src="./asets/img/_MG_8111.png" alt="" />
-          <img src="./asets/img/_MG_8096.png" alt="" />
-          <img src="./asets/img/_MG_8098.png" alt="" />
-          <img src="./asets/img/_MG_8083.png" alt="" />
-          <img src="./asets/img/_MG_8091.png" alt="" />
+          <h5></h5>
+        <div class="owl-carousel owl-theme">
+          <div><img src="./asets/img/_MG_8111.png" alt="" /></div>
+          <div><img src="./asets/img/_MG_8096.png" alt="" /></div>
+          <div><img src="./asets/img/_MG_8098.png" alt="" /></div>
+          <div><img src="./asets/img/_MG_8083.png" alt="" /></div>
+          <div><img src="./asets/img/_MG_8091.png" alt="" /></div>
+          <div><img src="./asets/img/_MG_8124.png" alt="" /></div>
+          <div><img src="./asets/img/_MG_8135.png" alt="" /></div>
+          <div><img src="./asets/img/_MG_8152.png" alt="" /></div>
+          <div><img src="./asets/img/_MG_8156.png" alt="" /></div>
+          <div><img src="./asets/img/_MG_8158.png" alt="" /></div>    
+      </div>
         </div>
       </section>
       <!-- seccion contactos -->
@@ -144,8 +160,27 @@
         </div>
       </section>
       <!-- scripts -->
-      <script src="./app.js"></script>
-      <script src="./nav-bar.js"></script>
+      <script type="text/javascript" src="./asets/js/app.js"></script>
+      <script type="text/javascript" src="./asets/owl/docs/assets/vendors/jquery.min.js"></script>
+      <script type="text/javascript" src="./asets/owl/dist/owl.carousel.js"></script>
+      <script type="text/javascript" src="./asets/js/nav-bar.js"></script>
+      <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:3
+              },
+              1000:{
+                  items:5
+              }
+          }
+      })
+      </script>
       <!-- footer -->
       <footer></footer>
     </div>
