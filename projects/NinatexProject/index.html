@@ -14,7 +14,6 @@
 
       gtag("config", "UA-140782141-1");
     </script>
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -23,7 +22,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./asets/owl/dist/assets/owl.carousel.css" />
-    <link rel="stylesheet" href="./asets/owl/dist/assets/owl.theme.default.min.css" />
+    <link
+      rel="stylesheet"
+      href="./asets/owl/dist/assets/owl.theme.default.min.css"
+    />
     <link rel="icon" href="./asets/favicon/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./asets/css/style.css" />
     <link
@@ -43,7 +45,13 @@
           <ul class="nav-links ">
             <li><a class="nav-a-link" href="#inicio">Inicio</a></li>
             <li><a class="nav-a-link" href="#nosotros">Nosotros</a></li>
-            <li><a class="nav-a-link" href="#productos">Productos</a></li>
+            <li>
+              <a
+                class="nav-a-link"
+                href="/projects/NinatexProject/products.html"
+                >Productos</a
+              >
+            </li>
             <li><a class="nav-a-link" href="#">Contacto</a></li>
           </ul>
           <div class="burger">
@@ -63,7 +71,7 @@
           <a href="#nosotros"><i class="fas fa-angle-double-down fa-5x"></i></a>
         </div>
       </section>
-      <!-- Seccion Nosotros -->
+
       <section id="nosotros" class="content">
         <div class="how-section ">
           <div class="we-section-how">
@@ -122,21 +130,20 @@
       <section id="carrousel">
         <div class="carrousel">
           <h5></h5>
-        <div class="owl-carousel owl-theme">
-          <div><img src="./asets/img/_MG_8111.png" alt="" /></div>
-          <div><img src="./asets/img/_MG_8096.png" alt="" /></div>
-          <div><img src="./asets/img/_MG_8098.png" alt="" /></div>
-          <div><img src="./asets/img/_MG_8083.png" alt="" /></div>
-          <div><img src="./asets/img/_MG_8091.png" alt="" /></div>
-          <div><img src="./asets/img/_MG_8124.png" alt="" /></div>
-          <div><img src="./asets/img/_MG_8135.png" alt="" /></div>
-          <div><img src="./asets/img/_MG_8152.png" alt="" /></div>
-          <div><img src="./asets/img/_MG_8156.png" alt="" /></div>
-          <div><img src="./asets/img/_MG_8158.png" alt="" /></div>    
-      </div>
+          <div class="owl-carousel owl-theme">
+            <div><img src="./asets/img/_MG_8111.png" alt="" /></div>
+            <div><img src="./asets/img/_MG_8096.png" alt="" /></div>
+            <div><img src="./asets/img/_MG_8098.png" alt="" /></div>
+            <div><img src="./asets/img/_MG_8083.png" alt="" /></div>
+            <div><img src="./asets/img/_MG_8091.png" alt="" /></div>
+            <div><img src="./asets/img/_MG_8124.png" alt="" /></div>
+            <div><img src="./asets/img/_MG_8135.png" alt="" /></div>
+            <div><img src="./asets/img/_MG_8152.png" alt="" /></div>
+            <div><img src="./asets/img/_MG_8156.png" alt="" /></div>
+            <div><img src="./asets/img/_MG_8158.png" alt="" /></div>
+          </div>
         </div>
       </section>
-      <!-- seccion contactos -->
       <section id="contactos">
         <div class="contactos-container">
           <div class="contacto-form row" id="contacto">
@@ -159,30 +166,49 @@
           </div>
         </div>
       </section>
-      <!-- scripts -->
-      <script type="text/javascript" src="./asets/js/app.js"></script>
-      <script type="text/javascript" src="./asets/owl/docs/assets/vendors/jquery.min.js"></script>
-      <script type="text/javascript" src="./asets/owl/dist/owl.carousel.js"></script>
-      <script type="text/javascript" src="./asets/js/nav-bar.js"></script>
-      <script type="text/javascript">
-        $('.owl-carousel').owlCarousel({
-          loop:true,
-          margin:10,
-          responsive:{
-              0:{
-                  items:1
-              },
-              600:{
-                  items:3
-              },
-              1000:{
-                  items:5
-              }
-          }
-      })
-      </script>
-      <!-- footer -->
-      <footer></footer>
+      <footer>
+        <div class="footer">
+          <hr />
+          <br />
+          <br />
+          <div class="hor"></div>
+          <div class="column">
+            <p>another big something</p>
+          </div>
+          <div class="vert"></div>
+          <div class="column">
+            <p>another big something</p>
+          </div>
+        </div>
+      </footer>
     </div>
+    <!-- scripts -->
+    <script type="text/javascript" src="./asets/js/app.js"></script>
+    <script
+      type="text/javascript"
+      src="./asets/owl/docs/assets/vendors/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./asets/owl/dist/owl.carousel.js"
+    ></script>
+    <script type="text/javascript" src="./asets/js/nav-bar.js"></script>
+    <script type="text/javascript">
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 5
+          }
+        }
+      });
+    </script>
   </body>
 </html>
