@@ -82,3 +82,23 @@ button:hover {
     font-size: 120px;
     color: rgba(162, 179, 172, 0.849);
 }
+
+.logo {
+    width: 60px;
+    height: 60px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .he h1 {
+        font-size: 3.8em;
+        padding: 0;
+        margin: 0;
+        padding-top: 100px;
+
+    }
+
+    button {
+        display: none;
+    }
+}

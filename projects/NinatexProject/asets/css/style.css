@@ -5,6 +5,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
 }
 
 html {
@@ -353,6 +354,9 @@ nav {
     border-radius: 4px;
     box-sizing: border-box;
     border: none;
+    border: 1px solid #00C6EE;
+    font-size: 14px;
+    padding: 10px;
 }
 
 .form-contacto textarea {
@@ -363,16 +367,24 @@ nav {
     margin-top: 10px;
     display: flex;
     border: none;
+
 }
 
-.form-contacto button {
-    display: flex;
-    width: 80px;
+
+.form-contacto input[type="submit"] {
+    border: none;
+    background: #00C6EE;
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: 'Open Sans';
 }
 
 .column i {
     margin-top: 30px;
-    margin-right: 210px;
+    margin-right: 20px;
 }
 
 
@@ -418,35 +430,11 @@ nav {
     margin-top: 30px;
 }
 
-.footer {
-    color: rgb(104, 104, 104) !important;
-    width: 100%;
-    padding: 60px;
-}
 
 .column p {
     color: rgb(104, 104, 104);
 }
 
-hr {
-    border: 2px solid rgb(104, 104, 104);
-    width: 100%;
-}
-
-.hor {
-    border-top: 2px solid rgb(104, 104, 104);
-    width: 100%;
-    margin: 0;
-}
-
-.vert {
-    margin-top: 10px;
-    height: 200px;
-    border-left: 2px solid rgb(104, 104, 104);
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-}
 
 .cintas-layout {
     margin: 0;
@@ -595,4 +583,116 @@ hr {
     to {
         opacity: 1
     }
+}
+
+/*nuevos footer*/
+footer {
+    width: 100%;
+    font-family: 'Open Sans';
+}
+
+.footerpatro {
+    width: 100%;
+
+}
+
+.footerpatro .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.footerpatro img {
+    width: 100px;
+    height: 50px;
+}
+
+.footer-container {
+    width: 100%;
+    /*background: rgb(3, 44, 137);*/
+    border-top: 2px solid rgb(104, 104, 104);
+    /*color: rgb(255, 255, 255);*/
+    color: rgb(104, 104, 104);
+}
+
+.footer-main {
+    width: 98%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-main .footer-columna {
+    width: calc(100% / 2);
+    text-align: justify;
+}
+
+
+
+.footer-main .footer-columna h3 {
+    font-size: 32px;
+    color: rgb(3, 44, 137);
+    margin-bottom: 20px;
+}
+
+.footer-main .footer-columna span p {
+    display: inline-flex;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    font-family: 'Open Sans';
+}
+
+.footer-main .footer-columna img {
+    height: 300px;
+    margin: 0;
+}
+
+@media screen and (max-width: 750px) {
+
+    .footer-main .footer-columna {
+        padding: 0 10px;
+    }
+
+    .footer-main .footer-columna h3 {
+        font-size: 28px;
+    }
+
+    .footer-main .footer-columna p {
+        font-size: 14px;
+    }
+
+    .footer-main .footer-columna img {
+        height: 200px;
+    }
+
+    .column i {
+        margin-top: 30px;
+        margin-right: 0;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .footer-main {
+        padding: 10px 0;
+    }
+
+    .footer-main .footer-columna {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .footer-main .footer-columna h3 {
+        margin-bottom: 5px;
+    }
+
+    .footer-main .footer-columna span {
+        display: block;
+    }
+
 }
