@@ -12,6 +12,9 @@ html {
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+}
 
 /* Navbar secction  */
 nav {
@@ -76,7 +79,7 @@ nav {
 
 /* mobile setup  */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 660px) {
 
     body,
     html {
@@ -486,6 +489,40 @@ nav {
 
 }
 
+@media screen and (max-width: 700px) {
+    .gallery {
+        grid-gap: 10px;
+        grid-template-columns: repeat(3, 30fr);
+        grid-template-rows: repeat(3, 30vw);
+    }
+
+    .cintas-layout {
+        padding: 10px;
+    }
+
+    .elasticos-layout {
+        padding: 10px;
+    }
+
+    .etiquetas-layout {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cintas-layout {
+        padding: 10px;
+    }
+
+    .elasticos-layout {
+        padding: 10px;
+    }
+
+    .etiquetas-layout {
+        padding: 10px;
+    }
+}
+
 /* Hide the images by default */
 .mySlides {
     display: none;
@@ -650,7 +687,7 @@ footer {
     margin: 0;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
 
     .footer-main .footer-columna {
         padding: 0 10px;
@@ -669,9 +706,9 @@ footer {
     }
 
     .column i {
-        margin-top: 30px;
+        margin-top: 20px;
         margin-right: 0;
-        margin-left: 40px;
+        margin-left: 0;
     }
 }
 
