@@ -27,7 +27,7 @@
       href="./asets/owl/dist/assets/owl.theme.default.min.css"
     />
     <link rel="icon" href="./asets/favicon/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./asets/css/style.css" />
+    <link rel="stylesheet" href="./asets/css/style.1.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -42,16 +42,10 @@
       <header>
         <nav>
           <div class="logo"><h4>Ninatex</h4></div>
-          <ul class="nav-links ">
+          <ul class="nav-links">
             <li><a class="nav-a-link" href="#inicio">Inicio</a></li>
             <li><a class="nav-a-link" href="#nosotros">Nosotros</a></li>
-            <li>
-              <a
-                class="nav-a-link"
-                href="/projects/NinatexProject/products.html"
-                >Productos</a
-              >
-            </li>
+            <li><a class="nav-a-link" href="/projects/NinatexProject/products.html">Productos</a></li>
             <li><a class="nav-a-link" href="/projects/NinatexProject/contact.html">Contacto</a></li>
           </ul>
           <div class="burger">
@@ -61,7 +55,6 @@
           </div>
         </nav>
       </header>
-      <!-- Seccion Inicio -->
       <section id="inicio">
         <div class="head-banner clearfix content" id="inicio-contenedor">
           <div class="head-wrapper">
@@ -104,7 +97,6 @@
           </div>
         </div>
       </section>
-      <!-- Seccion Prodcutos -->
       <section id="productos">
         <div class="product-cs content">
           <h2>Productos</h2>
@@ -177,46 +169,30 @@
             </div>
     
             <div class="footer-columna">
-              <h3>Dirección</h3>
+              <div class="text-wrap">
+              <h5>Mantengase en contacto</h5>
               <span class="fa fa-map-marker"><p>San Salvador- El Salvador</p></span>
               <span class="fa fa-phone"><p>(+503) 768-3301</p></span>
               <span class="fa fa-envelope"><p>info@ninatex.com</p></span>
               <span class="fa fa-envelope"><p>info@ninatex.com</p></span>
+              <span class="fab fa-whatsapp fa-2x"><p>504-34356789</p></span>
+            </div>
             </div>
           </div>
         <div class="footerpatro">
-          <a class="center" href="http://www.fondepro.gob.sv/" targer="_blank"><img src="/projects/NinatexProject/asets/fondepro-logo.jpeg"></a>
+          <div class="center">
+            <p>Un proyecto</p>
+            <a href="http://www.fondepro.gob.sv/" target="_blank"><img src="/projects/NinatexProject/asets/fondepro-logo.jpeg"></a>
+          </div>
         </div>
         </div>
       </footer>
     </div>
     <!-- scripts -->
     <script type="text/javascript" src="./asets/js/app.js"></script>
-    <script
-      type="text/javascript"
-      src="./asets/owl/docs/assets/vendors/jquery.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./asets/owl/dist/owl.carousel.js"
-    ></script>
+    <script type="text/javascript" src="./asets/owl/docs/assets/vendors/jquery.min.js"></script>
+    <script type="text/javascript" src="./asets/owl/dist/owl.carousel.js"></script>
     <script type="text/javascript" src="./asets/js/nav-bar.js"></script>
-    <script type="text/javascript">
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        margin: 10,
-        responsive: {
-          0: {
-            items: 1
-          },
-          600: {
-            items: 3
-          },
-          1000: {
-            items: 5
-          }
-        }
-      });
-    </script>
+    <script type="text/javascript" src="./asets/js/owl-script.js"></script>
   </body>
 </html>

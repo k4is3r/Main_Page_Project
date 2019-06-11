@@ -317,6 +317,67 @@ nav {
     .fa-5x {
         font-size: 4em !important;
     }
+
+    .contacto-form {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contactos-container {
+        padding: 0;
+        width: 100%;
+    }
+
+    .column i {
+        margin-right: 68%;
+    }
+
+    .form-contacto input {
+        margin-left: 5%;
+    }
+
+    .form-contacto textarea {
+        margin-left: 5%;
+    }
+
+    .form-contacto button {
+        margin-left: 45%;
+
+    }
+
+    .cintas-layout {
+        padding: 10px;
+    }
+
+    .elasticos-layout {
+        padding: 10px;
+    }
+
+    .etiquetas-layout {
+        padding: 10px;
+    }
+
+    .footer-main .footer-columna {
+        padding: 0 10px;
+    }
+
+    .footer-main .footer-columna h3 {
+        font-size: 28px;
+    }
+
+    .footer-main .footer-columna p {
+        font-size: 14px;
+    }
+
+    .footer-main .footer-columna img {
+        height: 200px;
+    }
+
+    .column i {
+        margin-top: 20px;
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
 
 .sticky {
@@ -408,34 +469,7 @@ nav {
     font-weight: normal;
 }
 
-@media screen and (max-width: 768px) {
-    .contacto-form {
-        width: 100%;
-        margin-left: 0;
-    }
 
-    .contactos-container {
-        padding: 0;
-        width: 100%;
-    }
-
-    .column i {
-        margin-right: 68%;
-    }
-
-    .form-contacto input {
-        margin-left: 5%;
-    }
-
-    .form-contacto textarea {
-        margin-left: 5%;
-    }
-
-    .form-contacto button {
-        margin-left: 45%;
-
-    }
-}
 
 .carrousel {
     background-color: rgb(161, 159, 159);
@@ -519,19 +553,7 @@ nav {
     }
 }
 
-@media screen and (max-width: 768px) {
-    .cintas-layout {
-        padding: 10px;
-    }
 
-    .elasticos-layout {
-        padding: 10px;
-    }
-
-    .etiquetas-layout {
-        padding: 10px;
-    }
-}
 
 /* Hide the images by default */
 .mySlides {
@@ -695,31 +717,6 @@ footer {
 .footer-main .footer-columna img {
     height: 100%;
     margin: 0;
-}
-
-@media screen and (max-width: 768px) {
-
-    .footer-main .footer-columna {
-        padding: 0 10px;
-    }
-
-    .footer-main .footer-columna h3 {
-        font-size: 28px;
-    }
-
-    .footer-main .footer-columna p {
-        font-size: 14px;
-    }
-
-    .footer-main .footer-columna img {
-        height: 200px;
-    }
-
-    .column i {
-        margin-top: 20px;
-        margin-right: 0;
-        margin-left: 0;
-    }
 }
 
 @media screen and (max-width: 640px) {
