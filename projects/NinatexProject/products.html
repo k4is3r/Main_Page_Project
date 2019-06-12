@@ -5,15 +5,7 @@
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-140782141-1"
     ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-140782141-1");
-    </script>
+    <script src="/projects/NinatexProject/asets/js/analytic-g.js"></script>
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,7 +20,8 @@
       href="./asets/owl/dist/assets/owl.theme.default.min.css"
     />
     <link rel="icon" href="./asets/favicon/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./asets/css/style.css" />
+    <link rel="stylesheet" href="/projects/NinatexProject/asets/css/navbarPrueba.css">
+    
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -39,47 +32,49 @@
   </head>
   <body>
     <div class="main-div">
-      <!-- NavBar -->
       <header>
         <nav>
-          <div class="logo"><a href="/projects/NinatexProject/index.html"><h4>Ninatex</h4></a></div>
-          <ul class="nav-links ">
-            <li>
-              <a class="nav-a-link" href="/projects/NinatexProject/index.html">Inicio</a>
-            </li>
-            <li><a class="nav-a-link" href="#nosotros">Productos</a></li>
-            <li>
-              <a class="nav-a-link" href="/projects/NinatexProject/contact.html">Contacto</a>
-            </li>
-          </ul>
-          <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
+            <div class="topnav" id="myTopnav">
+                <a href="/projects/NinatexProject/index.html" class="pag-log"><h4>NINATEX</h4></a>
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    Productos
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+                <a href="/projects/NinatexProject/contact.html">Contacto</a>
+                <a
+                  href="javascript:void(0);"
+                  style="font-size:20px;"
+                  class="icon"
+                  onclick="myFunction()"
+                  >&#9776;</a
+                >
+              </div>
         </nav>
       </header>
-      <br>
       <br>
       <section id="carrousel">
           <div class="slideshow-container">
               <div class="mySlides fade">
-                <img src="/projects/NinatexProject/asets/img/_MG_8156.png" style="width:50%">
+                <img src="/projects/NinatexProject/asets/img/CINTAS.png"style="width:100%">
                 <div class="text">etiquetas</div>
               </div>
-            
               <div class="mySlides fade">
-                <img src="/projects/NinatexProject/asets/img/_MG_8126.png" style="width:50%">
+                <img src="/projects/NinatexProject/asets/img/CINTAS.png" style="width:100%">
                 <div class="text">etiquetas</div>
               </div>
-            
               <div class="mySlides fade">
-                <img src="/projects/NinatexProject/asets/img/_MG_8124.png" style="width:50%">
+                <img src="/projects/NinatexProject/asets/img/CINTAS.png" style="width:100%">
                 <div class="text">etiquetas</div>
               </div>
-            
               <div class="mySlides fade">
-                <img src="/projects/NinatexProject/asets/img/_MG_8124.png" style="width:50%">
+                <img src="/projects/NinatexProject/asets/img/CINTAS.png" style="width:100%">
                 <div class="text">etiquetas</div>
               </div>
               <!-- Next and previous buttons -->
@@ -95,6 +90,8 @@
               <span class="dot" onclick="currentSlide(4)"></span>
             </div>
       </section>
+      <br>
+      <br>
       <section id="products">
         <div id="cintas" class="cintas-layout">
           <h3>Cintas</h3>
@@ -156,7 +153,6 @@
                 <div class="footer-columna">
                   <img src="/projects/NinatexProject/asets/img/_MG_8101.png">
                 </div>
-        
                 <div class="footer-columna">
                   <div class="text-wrap">
                   <h5>Mantengase en contacto</h5>
@@ -185,7 +181,7 @@
         type="text/javascript"
         src="./asets/owl/dist/owl.carousel.js"
       ></script>
-      <script type="text/javascript" src="./asets/js/nav-bar.js"></script>
+      <script src="/projects/NinatexProject/asets/js/pruebajs.js"></script>
       <script type="text/javascript" src="./asets/js/auto-product-slide.js"></script>
     </div>
   </body>
