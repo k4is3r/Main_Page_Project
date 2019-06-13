@@ -334,15 +334,14 @@ a:visited:active {
 }
 
 .contactos-container {
-    padding: 60px;
+    padding-top: 40px;
     width: 100%;
 }
 
 .contacto-form {
-    width: 70%;
+    width: 100%;
     background-color: rgb(42, 170, 234);
     color: rgb(255, 255, 255);
-    margin-left: 15%;
 }
 
 #contacto h2 {
@@ -413,6 +412,15 @@ a:visited:active {
     color: rgb(104, 104, 104);
 }
 
+.contacto-form .column p {
+    color: rgb(255, 255, 255);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.contacto-form .fab {
+    display: inline-flex;
+}
 
 .cintas-layout {
     margin: 0;
@@ -617,10 +625,10 @@ footer {
 }
 
 .footer-main {
-    width: 98%;
+    width: 100%;
     max-width: 1000px;
     margin: auto;
-    padding: 50px 0;
+    padding: 30px 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -648,6 +656,8 @@ footer {
 .footer-main .footer-columna img {
     height: 100%;
     margin: 0;
+    width: 94%;
+    padding: 30px;
 }
 
 @media screen and (max-width: 640px) {
