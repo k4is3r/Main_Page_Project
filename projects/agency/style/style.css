@@ -110,10 +110,13 @@ nav {
 
 .cover {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
 }
 
 .cover img {
-    height: 60vh;
+    height: 100%;
     filter: drop-shadow(0px 6px 4px #000000);
     animation: drop 1.5s ease;
 }
@@ -152,5 +155,39 @@ nav {
     100% {
         opacity: 1;
         transform: translateY(0px);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .presentation {
+        flex-direction: column;
+    }
+
+    .introduction {
+        margin-top: 5vh;
+        text-align: center;
+    }
+
+    .intro-text h1 {
+        font-size: 30px;
+    }
+
+    .intro-text p {
+        font-size: 18px;
+    }
+
+    .cta {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .laptop-select {
+        bottom: 5%;
+        right: 50%;
+        width: 50%;
+        transform: translate(50%, 5%);
+    }
+
+    .cover img {
+        height: 80%;
     }
 }
