@@ -116,7 +116,7 @@ nav {
 .cover img {
     height: 60vh;
     filter: drop-shadow(0px 6px 4px #000000);
-    animation: drop 3s ease;
+    animation: drop 1.5s ease;
 }
 
 .big-circle {
