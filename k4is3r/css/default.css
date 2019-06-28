@@ -457,10 +457,11 @@ li {
     margin-bottom: 12px;
 }
 
-ul.large li {}
+/* ul.large li {}
 
 li p {}
 
+*/
 .stats-tabs {
     padding: 0;
     margin: 24px 0;
@@ -703,7 +704,7 @@ select {
     margin: 0 0 24px 0;
     border: 0;
     outline: none;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     min-width: 225px;
     max-width: 100%;
     font-size: 15px;
@@ -843,9 +844,11 @@ input[type="checkbox"] {
     width: 66.66667%;
 }
 
+/* 
 .row .nine {
-    width: 75%;
-}
+    width: 75%; modificado para quitar el espacio 
+} 
+*/
 
 .row .ten {
     width: 83.33333%;
@@ -1023,6 +1026,9 @@ input[type="checkbox"] {
     clear: none;
 }
 
+#about .row {
+    display: -webkit-box;
+}
 
 @media only screen and (max-width: 900px) {
 
@@ -1050,6 +1056,10 @@ input[type="checkbox"] {
     .s-first {
         clear: left;
     }
+
+    #about .row {
+        display: block;
+    }
 }
 
 
@@ -1072,7 +1082,7 @@ input[type="checkbox"] {
     .row .row {
         width: auto;
         max-width: none;
-        margin: 0 -30px;
+        margin: 0;
     }
 
     [class*="column"]+[class*="column"]:last-child {
