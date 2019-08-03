@@ -1,0 +1,94 @@
+#miEncabezado {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+ 
+.encabezados2 {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    text-align: center;
+} 
+
+ #test {
+            width: 600px;
+            height:600px;
+            margin: 0px auto;
+            text-align: justify;
+         }
+
+ #test0 {
+            width: 400px;
+            height:200px;
+            margin: 0px auto;
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+
+         }
+
+
+  #test1 {
+	width: 150px;
+	height:90px;
+	color: red;
+	float: right;
+         }
+
+
+  #btnClickMe {
+               background-color: tomato;
+               margin-left: 20px;
+               height:30px;
+               cursor: pointer;
+         }
+
+p {
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin: 0px auto;
+    
+}
+.tbl{
+    display: block;
+    width: 90%;
+    
+}
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+ th {
+    border: 1px solid #aaaaaa;
+    text-align: center;
+    padding: 8px;
+    background-color: #bbbbbb;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#derecho {
+                  margin-right: 000px;
+         }
+
+@media screen and (max-width: 992px) {
+    #test{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
