@@ -1,0 +1,16 @@
+body{
+    background: #333;
+}
+
+.main-area .social-btn > li > a > i[class*="facebook"] {
+    background: #333;
+}
+.main-area .social-btn > li > a > i[class*="twitter"] {
+    background: #333;
+}
+.main-area .social-btn > li > a > i[class*="instagram"] {
+    background: #333;
+}
+.main-area .social-btn > li > a > i {
+    background: #333;
+}
